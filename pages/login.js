@@ -45,13 +45,13 @@ const Login = () => {
                         <div className="flex justify-end mb-10">
                             <Link href="/reset-password">Forgot password?</Link>
                         </div>
-                        <button type="submit" className="flex justify-center bg-[#16C79A] rounded text-white w-full py-2 my-5">
+                        <Link href='/dashboard' type="submit" className="flex justify-center bg-[#16C79A] rounded text-white w-full py-2 my-5">
                         Login
-                        </button>
+                        </Link>
                     </form>
                     <p className="text-center">
                         Don't have an account? Let's{" "}
-                        <Link href="/register" className="text-[#16C79A]">
+                        <Link href="/sign-up" className="text-[#16C79A]">
                         Sign Up
                         </Link>
                     </p>    

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FiMail } from "react-icons/fi";
+import Link from "next/link";
 
 const ResetPassword = () => {
   return (
@@ -41,9 +42,9 @@ const ResetPassword = () => {
               <FiMail className="text-lg text-gray-400" />
               <input className="outline-none py-2 px-4 bg-white" type="email" name="email" placeholder="Enter your e-mail" />
             </div>
-            <button type="submit" className="flex justify-center bg-[#16C79A] rounded text-white w-full py-2 my-5">
+            <Link href='/forgot-password' type="submit" className="flex justify-center bg-[#16C79A] rounded text-white w-full py-2 my-5">
               Confirm
-            </button>
+            </Link>
           </form>
         </div>
       </div>

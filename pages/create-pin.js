@@ -57,9 +57,9 @@ const CreatePin = () => {
                   <input type="text" placeholder="_" className="outline-none text-4xl w-5 text-center" />
                 </div>
               </div>
-              <button type="submit" className="flex justify-center bg-[#16C79A] rounded text-white w-full py-2 my-5">
+              <Link href='pin-success' type="submit" className="flex justify-center bg-[#16C79A] rounded text-white w-full py-2 my-5">
                 Confirm
-              </button>
+              </Link>
             </form>
           </div>
         </div>

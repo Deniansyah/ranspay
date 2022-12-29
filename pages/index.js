@@ -1,5 +1,6 @@
 import { FiPhone, FiLock, FiDownload, FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import Image from "next/image";
+import Link from "next/link"
 
 function LandingPage() {
   return (
@@ -7,11 +8,11 @@ function LandingPage() {
       {/* Navabar */}
       <nav className="md:px-36 py-5 navbar absolute top-0 z-10">
         <div className="navbar-start">
-          <a className="btn btn-ghost normal-case text-3xl carter text-white drop-shadow-2xl tracking-wider">RansPay</a>
+          <Link href='/' className="btn btn-ghost normal-case text-3xl carter text-white drop-shadow-2xl tracking-wider">RansPay</Link>
         </div>
         <div className="navbar-end flex gap-5">
-          <a className="btn btn-accent bg-transparent border-white text-white">Login</a>
-          <a className="btn btn-accent bg-white text-[#17c79a] hover:text-white border-0">Sign Up</a>
+          <Link href='/login' className="btn btn-accent bg-transparent border-white text-white">Login</Link>
+          <Link href='/sign-up' className="btn btn-accent bg-white text-[#17c79a] hover:text-white border-0">Sign Up</Link>
         </div>
       </nav>
       {/* Header */}
@@ -33,8 +34,8 @@ function LandingPage() {
         <div className="hero-content text-center">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold text-white">Awesome App For Saving Time.</h1>
-            <p className="py-6 text-white">We bring you a mobile app for banking problems that oftenly wasting much of your times.</p>
-            <button className="btn btn-accent bg-white text-[#17c79a] hover:text-white border-0">Get Started</button>
+            <p className="py-6 text-white drop-shadow-xl">We bring you a mobile app for banking problems that oftenly wasting much of your times.</p>
+            <Link href='/sign-up' className="btn btn-accent bg-white text-[#17c79a] hover:text-white border-0">Get Started</Link>
           </div>
         </div>
       </header>
@@ -168,7 +169,7 @@ function LandingPage() {
         </div>
         <div className="flex my-3">
           <div className="grow">
-            <p>2020 FazzPay. All right reserved.</p>
+            <p>2022 RansPay. All right reserved.</p>
           </div>
           <div className="flex gap-7">
             <p>+62 5637 xxxx 9901</p>

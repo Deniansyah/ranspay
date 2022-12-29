@@ -54,13 +54,13 @@ const SignUp = () => {
               <FiLock className="text-lg text-gray-400" />
               <input className="outline-none py-2 px-4 bg-white" type="password" name="password" placeholder="Enter your password" />
             </div>
-            <button type="submit" className="flex justify-center bg-[#16C79A] rounded text-white w-full py-2 my-5">
+            <Link href='/create-pin' type="submit" className="flex justify-center bg-[#16C79A] rounded text-white w-full py-2 my-5">
               Sign Up
-            </button>
+            </Link>
           </form>
           <p className="text-center">
             Already have an account? Let's{" "}
-            <Link href="/register" className="text-[#16C79A]">
+            <Link href="/login" className="text-[#16C79A]">
               Login
             </Link>
           </p>

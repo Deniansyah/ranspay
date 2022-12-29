@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FiCheck } from "react-icons/fi";
+import Link from "next/link";
 
 const PinSuccess = () => {
   return (
@@ -39,9 +40,9 @@ const PinSuccess = () => {
           </div>
           <h2 className="text-2xl font-bold mb-5">Your PIN Was Successfully Created</h2>
           <p className="text-gray-500 mb-24">Your PIN was successfully created and you can now access all the features in FazzPay.</p>
-          <button type="submit" className="flex justify-center bg-[#16C79A] rounded text-white w-full py-2 my-5">
+          <Link href='/dashboard' type="submit" className="flex justify-center bg-[#16C79A] rounded text-white w-full py-2 my-5">
             Go to Dashboard
-          </button>
+          </Link>
         </div>
       </div>
     </div>
