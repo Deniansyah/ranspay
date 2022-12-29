@@ -40,11 +40,11 @@ const ForgotPassword = () => {
           <form>
             <div className="flex items-center mb-3 border-b-2">
               <FiLock className="text-lg text-gray-400" />
-              <input className="outline-none py-2 px-4 bg-white" type="password" name="password" placeholder="Enter your password" />
+              <input className="outline-none py-2 px-4 bg-white w-full" type="password" name="password" placeholder="Enter your password" />
             </div>
             <div className="flex items-center mb-3 border-b-2">
               <FiLock className="text-lg text-gray-400" />
-              <input className="outline-none py-2 px-4 bg-white" type="password" name="password" placeholder="Create new password" />
+              <input className="outline-none py-2 px-4 bg-white w-full" type="password" name="password" placeholder="Create new password" />
             </div>
             <Link href='/login' type="submit" className="flex justify-center bg-[#16C79A] rounded text-white w-full py-2 my-5">
               Reset Password

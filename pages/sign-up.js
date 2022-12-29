@@ -40,19 +40,19 @@ const SignUp = () => {
           <form>
             <div className="flex items-center mb-7 border-b-2">
               <FiUser className="text-lg text-gray-400" />
-              <input className="outline-none py-2 px-4 bg-white" type="text" name="text" placeholder="Enter your first name" />
+              <input className="outline-none py-2 px-4 bg-white w-full" type="text" name="text" placeholder="Enter your first name" />
             </div>
             <div className="flex items-center mb-7 border-b-2">
               <FiUser className="text-lg text-gray-400" />
-              <input className="outline-none py-2 px-4 bg-white" type="text" name="text" placeholder="Enter your last name" />
+              <input className="outline-none py-2 px-4 bg-white w-full" type="text" name="text" placeholder="Enter your last name" />
             </div>
             <div className="flex items-center mb-7 border-b-2">
               <FiMail className="text-lg text-gray-400" />
-              <input className="outline-none py-2 px-4 bg-white" type="email" name="email" placeholder="Enter your e-mail" />
+              <input className="outline-none py-2 px-4 bg-white w-full" type="email" name="email" placeholder="Enter your e-mail" />
             </div>
             <div className="flex items-center mb-3 border-b-2">
               <FiLock className="text-lg text-gray-400" />
-              <input className="outline-none py-2 px-4 bg-white" type="password" name="password" placeholder="Enter your password" />
+              <input className="outline-none py-2 px-4 bg-white w-full" type="password" name="password" placeholder="Enter your password" />
             </div>
             <Link href='/create-pin' type="submit" className="flex justify-center bg-[#16C79A] rounded text-white w-full py-2 my-5">
               Sign Up
